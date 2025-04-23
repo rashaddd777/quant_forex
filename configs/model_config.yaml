@@ -1,0 +1,16 @@
+# configs/model_config.yaml
+rolling_window: 252
+
+autoencoder:
+  latent_dim:    10
+  hidden_layers: [64, 32]
+  l2_reg:        0.001
+
+training:
+  learning_rate:    0.001
+  loss:             "mse"
+  metrics:          ["mse"]
+  epochs:           50
+  batch_size:       32
+  validation_split: 0.1
+  patience:         5

@@ -1,0 +1,10 @@
+# Hyperparameters for our Random Forest
+rf_params:
+  n_estimators: 200
+  max_depth: 8
+  random_state: 42
+
+# Rolling windows used in feature engineering
+lag_window: 1
+roll_mean_window: 5
+roll_std_window: 5

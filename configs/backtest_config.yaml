@@ -1,0 +1,5 @@
+# configs/backtest_config.yaml
+entry_z:           2.0
+exit_z:            1.0
+transaction_cost:  0.0001
+leverage_vol:      0.20

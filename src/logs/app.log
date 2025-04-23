@@ -1,0 +1,312 @@
+2025-04-23 23:43:13,540 [INFO] __main__ (main.py:12): === Starting Quant FX Indicator Pipeline ===
+2025-04-23 23:44:36,637 [INFO] __main__ (main.py:12): === Starting Quant FX Indicator Pipeline ===
+2025-04-23 23:45:54,976 [INFO] __main__ (main.py:12): === Starting Quant FX Indicator Pipeline ===
+2025-04-23 23:45:54,977 [INFO] src.data.download_data (download_data.py:30): Downloading EUR/USD [2020-01-01 → 2025-04-01 @ 1d]
+2025-04-23 23:46:00,746 [WARNING] src.data.download_data (download_data.py:33): No data for EUR/USD, skipping
+2025-04-23 23:46:00,747 [INFO] src.data.download_data (download_data.py:30): Downloading GBP/USD [2020-01-01 → 2025-04-01 @ 1d]
+2025-04-23 23:46:03,500 [WARNING] src.data.download_data (download_data.py:33): No data for GBP/USD, skipping
+2025-04-23 23:46:03,500 [WARNING] src.data.preprocess (preprocess.py:30): Missing raw file for EUR/USD: /Users/rashidkarimov/Desktop/trading/quant/data/raw/EUR_USD.csv
+2025-04-23 23:46:03,500 [WARNING] src.data.preprocess (preprocess.py:30): Missing raw file for GBP/USD: /Users/rashidkarimov/Desktop/trading/quant/data/raw/GBP_USD.csv
+2025-04-23 23:47:03,910 [INFO] __main__ (main.py:12): === Starting Quant FX Indicator Pipeline ===
+2025-04-23 23:47:03,911 [INFO] src.data.download_data (download_data.py:38): Downloading EUR/USD as EURUSD=X [2020-01-01 → 2025-04-01 @ 1d]
+2025-04-23 23:47:04,789 [INFO] src.data.download_data (download_data.py:46): Saved EUR/USD data to /Users/rashidkarimov/Desktop/trading/quant/data/raw/EUR_USD.csv
+2025-04-23 23:47:04,789 [INFO] src.data.download_data (download_data.py:38): Downloading GBP/USD as GBPUSD=X [2020-01-01 → 2025-04-01 @ 1d]
+2025-04-23 23:47:05,066 [INFO] src.data.download_data (download_data.py:46): Saved GBP/USD data to /Users/rashidkarimov/Desktop/trading/quant/data/raw/GBP_USD.csv
+2025-04-23 23:48:14,098 [INFO] __main__ (main.py:12): === Starting Quant FX Indicator Pipeline ===
+2025-04-23 23:48:14,098 [INFO] src.data.download_data (download_data.py:38): Downloading EUR/USD as EURUSD=X [2020-01-01 → 2025-04-01 @ 1d]
+2025-04-23 23:48:15,057 [INFO] src.data.download_data (download_data.py:46): Saved EUR/USD data to /Users/rashidkarimov/Desktop/trading/quant/data/raw/EUR_USD.csv
+2025-04-23 23:48:15,057 [INFO] src.data.download_data (download_data.py:38): Downloading GBP/USD as GBPUSD=X [2020-01-01 → 2025-04-01 @ 1d]
+2025-04-23 23:48:15,282 [INFO] src.data.download_data (download_data.py:46): Saved GBP/USD data to /Users/rashidkarimov/Desktop/trading/quant/data/raw/GBP_USD.csv
+2025-04-23 23:50:00,207 [INFO] __main__ (main.py:12): === Starting Quant FX Indicator Pipeline ===
+2025-04-23 23:50:00,208 [INFO] src.data.download_data (download_data.py:38): Downloading EUR/USD as EURUSD=X [2020-01-01 → 2025-04-01 @ 1d]
+2025-04-23 23:50:01,129 [INFO] src.data.download_data (download_data.py:46): Saved EUR/USD data to /Users/rashidkarimov/Desktop/trading/quant/data/raw/EUR_USD.csv
+2025-04-23 23:50:01,129 [INFO] src.data.download_data (download_data.py:38): Downloading GBP/USD as GBPUSD=X [2020-01-01 → 2025-04-01 @ 1d]
+2025-04-23 23:50:01,369 [INFO] src.data.download_data (download_data.py:46): Saved GBP/USD data to /Users/rashidkarimov/Desktop/trading/quant/data/raw/GBP_USD.csv
+2025-04-23 23:50:01,386 [INFO] src.data.preprocess (preprocess.py:63): Saved processed prices and returns to /Users/rashidkarimov/Desktop/trading/quant/data/processed
+2025-04-24 00:00:41,875 [INFO] __main__ (main.py:13): === Starting Quant FX Indicator Pipeline ===
+2025-04-24 00:00:41,876 [INFO] src.data.download_data (download_data.py:38): Downloading EUR/USD as EURUSD=X [2020-01-01 → 2025-04-01 @ 1d]
+2025-04-24 00:00:42,775 [INFO] src.data.download_data (download_data.py:46): Saved EUR/USD data to /Users/rashidkarimov/Desktop/trading/quant/data/raw/EUR_USD.csv
+2025-04-24 00:00:42,776 [INFO] src.data.download_data (download_data.py:38): Downloading GBP/USD as GBPUSD=X [2020-01-01 → 2025-04-01 @ 1d]
+2025-04-24 00:00:43,043 [INFO] src.data.download_data (download_data.py:46): Saved GBP/USD data to /Users/rashidkarimov/Desktop/trading/quant/data/raw/GBP_USD.csv
+2025-04-24 00:00:43,058 [INFO] src.data.preprocess (preprocess.py:63): Saved processed prices and returns to /Users/rashidkarimov/Desktop/trading/quant/data/processed
+2025-04-24 00:00:43,058 [INFO] __main__ (main.py:22): === Computing Factor Series ===
+2025-04-24 00:00:43,092 [INFO] src.features.compute_factors (compute_factors.py:31): Saved factors to /Users/rashidkarimov/Desktop/trading/quant/data/processed/factors.csv
+2025-04-24 00:00:43,145 [INFO] src.features.factor_model (factor_model.py:31): Rolling OLS for EUR/USD (window=252)
+2025-04-24 00:04:32,910 [INFO] __main__ (main.py:13): === Starting Quant FX Indicator Pipeline ===
+2025-04-24 00:04:32,912 [INFO] src.data.download_data (download_data.py:38): Downloading EUR/USD as EURUSD=X [2020-01-01 → 2025-04-01 @ 1d]
+2025-04-24 00:04:33,836 [INFO] src.data.download_data (download_data.py:46): Saved EUR/USD data to /Users/rashidkarimov/Desktop/trading/quant/data/raw/EUR_USD.csv
+2025-04-24 00:04:33,836 [INFO] src.data.download_data (download_data.py:38): Downloading GBP/USD as GBPUSD=X [2020-01-01 → 2025-04-01 @ 1d]
+2025-04-24 00:04:34,101 [INFO] src.data.download_data (download_data.py:46): Saved GBP/USD data to /Users/rashidkarimov/Desktop/trading/quant/data/raw/GBP_USD.csv
+2025-04-24 00:04:34,118 [INFO] src.data.preprocess (preprocess.py:63): Saved processed prices and returns to /Users/rashidkarimov/Desktop/trading/quant/data/processed
+2025-04-24 00:04:34,118 [INFO] __main__ (main.py:22): === Computing Factor Series ===
+2025-04-24 00:04:34,152 [INFO] src.features.compute_factors (compute_factors.py:31): Saved factors to /Users/rashidkarimov/Desktop/trading/quant/data/processed/factors.csv
+2025-04-24 00:04:34,204 [INFO] src.features.factor_model (factor_model.py:38): Rolling OLS for EUR/USD (window=252)
+2025-04-24 00:04:34,323 [INFO] src.features.factor_model (factor_model.py:38): Rolling OLS for GBP/USD (window=252)
+2025-04-24 00:04:34,471 [INFO] src.features.factor_model (factor_model.py:63): Saved betas.csv and residuals.csv
+2025-04-24 00:04:34,505 [INFO] src.features.residuals (residuals.py:21): Loaded residuals: 1244 rows × 2 symbols
+2025-04-24 00:04:35,001 [INFO] src.models.autoencoder (autoencoder.py:76): Built autoencoder with input_dim=2, latent_dim=10
+2025-04-24 00:06:05,906 [INFO] __main__ (main.py:13): === Starting Quant FX Indicator Pipeline ===
+2025-04-24 00:06:05,907 [INFO] src.data.download_data (download_data.py:38): Downloading EUR/USD as EURUSD=X [2020-01-01 → 2025-04-01 @ 1d]
+2025-04-24 00:06:06,835 [INFO] src.data.download_data (download_data.py:46): Saved EUR/USD data to /Users/rashidkarimov/Desktop/trading/quant/data/raw/EUR_USD.csv
+2025-04-24 00:06:06,835 [INFO] src.data.download_data (download_data.py:38): Downloading GBP/USD as GBPUSD=X [2020-01-01 → 2025-04-01 @ 1d]
+2025-04-24 00:06:07,080 [INFO] src.data.download_data (download_data.py:46): Saved GBP/USD data to /Users/rashidkarimov/Desktop/trading/quant/data/raw/GBP_USD.csv
+2025-04-24 00:06:07,100 [INFO] src.data.preprocess (preprocess.py:63): Saved processed prices and returns to /Users/rashidkarimov/Desktop/trading/quant/data/processed
+2025-04-24 00:06:07,100 [INFO] __main__ (main.py:22): === Computing Factor Series ===
+2025-04-24 00:06:07,134 [INFO] src.features.compute_factors (compute_factors.py:31): Saved factors to /Users/rashidkarimov/Desktop/trading/quant/data/processed/factors.csv
+2025-04-24 00:06:07,186 [INFO] src.features.factor_model (factor_model.py:38): Rolling OLS for EUR/USD (window=252)
+2025-04-24 00:06:07,297 [INFO] src.features.factor_model (factor_model.py:38): Rolling OLS for GBP/USD (window=252)
+2025-04-24 00:06:07,468 [INFO] src.features.factor_model (factor_model.py:63): Saved betas.csv and residuals.csv
+2025-04-24 00:06:07,502 [INFO] src.features.residuals (residuals.py:21): Loaded residuals: 1244 rows × 2 symbols
+2025-04-24 00:06:07,738 [INFO] src.models.autoencoder (autoencoder.py:76): Built autoencoder with input_dim=2, latent_dim=10
+2025-04-24 00:06:27,887 [INFO] src.models.train (train.py:66): Training complete. Weights saved to /Users/rashidkarimov/Desktop/trading/quant/models/autoencoder.weights.h5, full model to /Users/rashidkarimov/Desktop/trading/quant/models/autoencoder_final.h5
+2025-04-24 00:06:27,968 [INFO] src.features.residuals (residuals.py:21): Loaded residuals: 1244 rows × 2 symbols
+2025-04-24 00:07:55,093 [INFO] __main__ (main.py:13): === Starting Quant FX Indicator Pipeline ===
+2025-04-24 00:07:55,095 [INFO] src.data.download_data (download_data.py:38): Downloading EUR/USD as EURUSD=X [2020-01-01 → 2025-04-01 @ 1d]
+2025-04-24 00:07:56,017 [INFO] src.data.download_data (download_data.py:46): Saved EUR/USD data to /Users/rashidkarimov/Desktop/trading/quant/data/raw/EUR_USD.csv
+2025-04-24 00:07:56,017 [INFO] src.data.download_data (download_data.py:38): Downloading GBP/USD as GBPUSD=X [2020-01-01 → 2025-04-01 @ 1d]
+2025-04-24 00:07:56,299 [INFO] src.data.download_data (download_data.py:46): Saved GBP/USD data to /Users/rashidkarimov/Desktop/trading/quant/data/raw/GBP_USD.csv
+2025-04-24 00:07:56,317 [INFO] src.data.preprocess (preprocess.py:63): Saved processed prices and returns to /Users/rashidkarimov/Desktop/trading/quant/data/processed
+2025-04-24 00:07:56,318 [INFO] __main__ (main.py:22): === Computing Factor Series ===
+2025-04-24 00:07:56,355 [INFO] src.features.compute_factors (compute_factors.py:31): Saved factors to /Users/rashidkarimov/Desktop/trading/quant/data/processed/factors.csv
+2025-04-24 00:07:56,407 [INFO] src.features.factor_model (factor_model.py:38): Rolling OLS for EUR/USD (window=252)
+2025-04-24 00:07:56,599 [INFO] src.features.factor_model (factor_model.py:38): Rolling OLS for GBP/USD (window=252)
+2025-04-24 00:07:56,696 [INFO] src.features.factor_model (factor_model.py:63): Saved betas.csv and residuals.csv
+2025-04-24 00:07:56,733 [INFO] src.features.residuals (residuals.py:21): Loaded residuals: 1244 rows × 2 symbols
+2025-04-24 00:07:56,997 [INFO] src.models.autoencoder (autoencoder.py:76): Built autoencoder with input_dim=2, latent_dim=10
+2025-04-24 00:08:16,563 [INFO] src.models.train (train.py:66): Training complete. Weights saved to /Users/rashidkarimov/Desktop/trading/quant/models/autoencoder.weights.h5, full model to /Users/rashidkarimov/Desktop/trading/quant/models/autoencoder_final.h5
+2025-04-24 00:08:16,645 [INFO] src.features.residuals (residuals.py:21): Loaded residuals: 1244 rows × 2 symbols
+2025-04-24 00:08:16,646 [INFO] src.backtest.backtest_engine (backtest_engine.py:53): Computed anomaly z-score series
+2025-04-24 00:08:16,646 [INFO] src.backtest.backtest_engine (backtest_engine.py:69): Generated trading signals
+2025-04-24 00:08:16,648 [INFO] src.backtest.backtest_engine (backtest_engine.py:83): Backtest complete
+2025-04-24 00:08:16,648 [DEBUG] src.backtest.performance (performance.py:35): CAGR: 0.0510
+2025-04-24 00:08:16,648 [DEBUG] src.backtest.performance (performance.py:13): Sharpe: 0.5469
+2025-04-24 00:08:16,649 [DEBUG] src.backtest.performance (performance.py:23): Max Drawdown: -0.2186
+2025-04-24 00:08:16,649 [INFO] src.backtest.performance (performance.py:50): Performance summary: {'total_return': 0.27811055789302097, 'cagr': 0.05100597006942875, 'sharpe': 0.5468663961395026, 'max_drawdown': -0.21863069190486473}
+2025-04-24 00:08:16,649 [INFO] __main__ (main.py:40): === Pipeline Complete ===
+2025-04-24 00:08:16,649 [INFO] __main__ (main.py:41): {'total_return': 0.27811055789302097, 'cagr': 0.05100597006942875, 'sharpe': 0.5468663961395026, 'max_drawdown': -0.21863069190486473}
+2025-04-24 00:16:04,963 [INFO] src.features.residuals (residuals.py:21): Loaded residuals: 1244 rows × 2 symbols
+2025-04-24 00:16:04,968 [INFO] src.backtest.backtest_engine (backtest_engine.py:53): Computed anomaly z-score series
+2025-04-24 00:16:04,970 [INFO] src.backtest.backtest_engine (backtest_engine.py:69): Generated trading signals
+2025-04-24 00:16:04,972 [INFO] src.backtest.backtest_engine (backtest_engine.py:83): Backtest complete
+2025-04-24 00:23:22,739 [INFO] __main__ (main.py:13): === Starting Quant FX Indicator Pipeline ===
+2025-04-24 00:23:22,740 [INFO] src.data.download_data (download_data.py:38): Downloading EUR/USD as EURUSD=X [2020-01-01 → 2025-04-01 @ 1d]
+2025-04-24 00:23:23,668 [INFO] src.data.download_data (download_data.py:46): Saved EUR/USD data to /Users/rashidkarimov/Desktop/trading/quant/data/raw/EUR_USD.csv
+2025-04-24 00:23:23,669 [INFO] src.data.download_data (download_data.py:38): Downloading GBP/USD as GBPUSD=X [2020-01-01 → 2025-04-01 @ 1d]
+2025-04-24 00:23:23,931 [INFO] src.data.download_data (download_data.py:46): Saved GBP/USD data to /Users/rashidkarimov/Desktop/trading/quant/data/raw/GBP_USD.csv
+2025-04-24 00:23:23,945 [INFO] src.data.preprocess (preprocess.py:63): Saved processed prices and returns to /Users/rashidkarimov/Desktop/trading/quant/data/processed
+2025-04-24 00:23:23,945 [INFO] __main__ (main.py:22): === Computing Factor Series ===
+2025-04-24 00:23:23,978 [INFO] src.features.compute_factors (compute_factors.py:31): Saved factors to /Users/rashidkarimov/Desktop/trading/quant/data/processed/factors.csv
+2025-04-24 00:23:24,030 [INFO] src.features.factor_model (factor_model.py:38): Rolling OLS for EUR/USD (window=252)
+2025-04-24 00:23:24,171 [INFO] src.features.factor_model (factor_model.py:38): Rolling OLS for GBP/USD (window=252)
+2025-04-24 00:23:24,308 [INFO] src.features.factor_model (factor_model.py:63): Saved betas.csv and residuals.csv
+2025-04-24 00:23:24,339 [INFO] src.features.residuals (residuals.py:21): Loaded residuals: 1244 rows × 2 symbols
+2025-04-24 00:23:24,617 [INFO] src.models.autoencoder (autoencoder.py:76): Built autoencoder with input_dim=2, latent_dim=10
+2025-04-24 00:23:43,059 [INFO] src.models.train (train.py:66): Training complete. Weights saved to /Users/rashidkarimov/Desktop/trading/quant/models/autoencoder.weights.h5, full model to /Users/rashidkarimov/Desktop/trading/quant/models/autoencoder_final.h5
+2025-04-24 00:23:43,144 [INFO] src.features.residuals (residuals.py:21): Loaded residuals: 1244 rows × 2 symbols
+2025-04-24 00:23:43,145 [INFO] src.backtest.backtest_engine (backtest_engine.py:53): Computed anomaly z-score series
+2025-04-24 00:23:43,145 [INFO] src.backtest.backtest_engine (backtest_engine.py:69): Generated trading signals
+2025-04-24 00:23:43,147 [INFO] src.backtest.backtest_engine (backtest_engine.py:83): Backtest complete
+2025-04-24 00:23:43,147 [DEBUG] src.backtest.performance (performance.py:35): CAGR: 0.0937
+2025-04-24 00:23:43,147 [DEBUG] src.backtest.performance (performance.py:13): Sharpe: 0.5469
+2025-04-24 00:23:43,148 [DEBUG] src.backtest.performance (performance.py:23): Max Drawdown: -0.3963
+2025-04-24 00:23:43,148 [INFO] src.backtest.performance (performance.py:50): Performance summary: {'total_return': 0.5555622296994596, 'cagr': 0.09371042292093401, 'sharpe': 0.5468663961395026, 'max_drawdown': -0.3963266080837131}
+2025-04-24 00:23:43,148 [INFO] __main__ (main.py:40): === Pipeline Complete ===
+2025-04-24 00:23:43,148 [INFO] __main__ (main.py:41): {'total_return': 0.5555622296994596, 'cagr': 0.09371042292093401, 'sharpe': 0.5468663961395026, 'max_drawdown': -0.3963266080837131}
+2025-04-24 00:23:55,750 [INFO] src.features.residuals (residuals.py:21): Loaded residuals: 1244 rows × 2 symbols
+2025-04-24 00:23:55,753 [INFO] src.backtest.backtest_engine (backtest_engine.py:53): Computed anomaly z-score series
+2025-04-24 00:23:55,754 [INFO] src.backtest.backtest_engine (backtest_engine.py:69): Generated trading signals
+2025-04-24 00:23:55,755 [INFO] src.backtest.backtest_engine (backtest_engine.py:83): Backtest complete
+2025-04-24 00:27:02,084 [INFO] src.features.residuals (residuals.py:21): Loaded residuals: 1244 rows × 2 symbols
+2025-04-24 00:27:02,087 [INFO] src.backtest.backtest_engine (backtest_engine.py:53): Computed anomaly z-score series
+2025-04-24 00:27:02,088 [INFO] src.backtest.backtest_engine (backtest_engine.py:69): Generated trading signals
+2025-04-24 00:27:02,090 [INFO] src.backtest.backtest_engine (backtest_engine.py:83): Backtest complete
+2025-04-24 00:28:32,356 [INFO] src.features.residuals (residuals.py:21): Loaded residuals: 1244 rows × 2 symbols
+2025-04-24 00:28:32,359 [INFO] src.backtest.backtest_engine (backtest_engine.py:53): Computed anomaly z-score series
+2025-04-24 00:28:32,360 [INFO] src.backtest.backtest_engine (backtest_engine.py:69): Generated trading signals
+2025-04-24 00:28:32,363 [INFO] src.backtest.backtest_engine (backtest_engine.py:83): Backtest complete
+2025-04-24 01:17:21,419 [INFO] __main__ (main.py:23): === Starting Quant FX Indicator Pipeline ===
+2025-04-24 01:17:21,421 [INFO] src.data.download_data (download_data.py:38): Downloading EUR/USD as EURUSD=X [2020-01-01 → 2025-04-01 @ 1d]
+2025-04-24 01:17:22,396 [INFO] src.data.download_data (download_data.py:46): Saved EUR/USD data to /Users/rashidkarimov/Desktop/trading/quant/data/raw/EUR_USD.csv
+2025-04-24 01:17:22,396 [INFO] src.data.download_data (download_data.py:38): Downloading GBP/USD as GBPUSD=X [2020-01-01 → 2025-04-01 @ 1d]
+2025-04-24 01:17:22,643 [INFO] src.data.download_data (download_data.py:46): Saved GBP/USD data to /Users/rashidkarimov/Desktop/trading/quant/data/raw/GBP_USD.csv
+2025-04-24 01:17:22,660 [INFO] src.data.preprocess (preprocess.py:63): Saved processed prices and returns to /Users/rashidkarimov/Desktop/trading/quant/data/processed
+2025-04-24 01:17:22,660 [INFO] __main__ (main.py:32): === Computing Factor Series ===
+2025-04-24 01:17:22,693 [INFO] src.features.compute_factors (compute_factors.py:31): Saved factors to /Users/rashidkarimov/Desktop/trading/quant/data/processed/factors.csv
+2025-04-24 01:17:22,744 [INFO] src.features.factor_model (factor_model.py:38): Rolling OLS for EUR/USD (window=252)
+2025-04-24 01:17:22,872 [INFO] src.features.factor_model (factor_model.py:38): Rolling OLS for GBP/USD (window=252)
+2025-04-24 01:17:23,032 [INFO] src.features.factor_model (factor_model.py:63): Saved betas.csv and residuals.csv
+2025-04-24 01:17:23,032 [INFO] __main__ (main.py:39): === Training ML Models ===
+2025-04-24 01:17:23,033 [INFO] src.models.train_ml (train_ml.py:27): Training ML model for EUR/USD
+2025-04-24 01:17:23,089 [INFO] src.features.ml_features (ml_features.py:56): Built ML dataset for EUR/USD: 1238 rows × 5 features
+2025-04-24 01:17:23,634 [INFO] src.models.train_ml (train_ml.py:33): Saved EUR/USD model to /Users/rashidkarimov/Desktop/trading/quant/models/ml/rf_EUR_USD.joblib
+2025-04-24 01:17:23,634 [INFO] src.models.train_ml (train_ml.py:27): Training ML model for GBP/USD
+2025-04-24 01:17:23,683 [INFO] src.features.ml_features (ml_features.py:56): Built ML dataset for GBP/USD: 1238 rows × 5 features
+2025-04-24 01:17:24,194 [INFO] src.models.train_ml (train_ml.py:33): Saved GBP/USD model to /Users/rashidkarimov/Desktop/trading/quant/models/ml/rf_GBP_USD.joblib
+2025-04-24 01:17:24,194 [INFO] __main__ (main.py:43): === Generating ML Predictions ===
+2025-04-24 01:17:24,248 [INFO] src.features.ml_features (ml_features.py:56): Built ML dataset for EUR/USD: 1238 rows × 5 features
+2025-04-24 01:17:24,267 [INFO] src.models.ml_model (ml_model.py:27): Loaded ML model for EUR/USD
+2025-04-24 01:17:24,322 [INFO] src.features.ml_features (ml_features.py:56): Built ML dataset for GBP/USD: 1238 rows × 5 features
+2025-04-24 01:17:24,339 [INFO] src.models.ml_model (ml_model.py:27): Loaded ML model for GBP/USD
+2025-04-24 01:17:24,345 [INFO] __main__ (main.py:53): ML predicted next-day residuals: {'EUR/USD': -0.0004842421116021754, 'GBP/USD': 0.0009703639798635214}
+2025-04-24 01:17:24,369 [INFO] src.features.residuals (residuals.py:21): Loaded residuals: 1244 rows × 2 symbols
+2025-04-24 01:17:24,608 [INFO] src.models.autoencoder (autoencoder.py:76): Built autoencoder with input_dim=2, latent_dim=10
+2025-04-24 01:17:40,197 [INFO] src.models.train (train.py:66): Training complete. Weights saved to /Users/rashidkarimov/Desktop/trading/quant/models/autoencoder.weights.h5, full model to /Users/rashidkarimov/Desktop/trading/quant/models/autoencoder_final.h5
+2025-04-24 01:17:40,278 [INFO] src.features.residuals (residuals.py:21): Loaded residuals: 1244 rows × 2 symbols
+2025-04-24 01:17:40,280 [INFO] src.backtest.backtest_engine (backtest_engine.py:53): Computed anomaly z-score series
+2025-04-24 01:17:40,282 [INFO] src.backtest.backtest_engine (backtest_engine.py:69): Generated trading signals
+2025-04-24 01:17:40,284 [INFO] src.backtest.backtest_engine (backtest_engine.py:83): Backtest complete
+2025-04-24 01:17:40,284 [DEBUG] src.backtest.performance (performance.py:35): CAGR: 0.0937
+2025-04-24 01:17:40,285 [DEBUG] src.backtest.performance (performance.py:13): Sharpe: 0.5469
+2025-04-24 01:17:40,285 [DEBUG] src.backtest.performance (performance.py:23): Max Drawdown: -0.3963
+2025-04-24 01:17:40,285 [INFO] src.backtest.performance (performance.py:50): Performance summary: {'total_return': 0.5555622296994596, 'cagr': 0.09371042292093401, 'sharpe': 0.5468663961395026, 'max_drawdown': -0.3963266080837131}
+2025-04-24 01:17:40,285 [INFO] __main__ (main.py:67): === Pipeline Complete ===
+2025-04-24 01:17:40,285 [INFO] __main__ (main.py:68): {'total_return': 0.5555622296994596, 'cagr': 0.09371042292093401, 'sharpe': 0.5468663961395026, 'max_drawdown': -0.3963266080837131}
+2025-04-24 01:19:56,489 [INFO] __main__ (main.py:23): === Starting Quant FX Indicator Pipeline ===
+2025-04-24 01:19:56,491 [INFO] src.data.download_data (download_data.py:38): Downloading EUR/USD as EURUSD=X [2020-01-01 → 2025-04-01 @ 1d]
+2025-04-24 01:19:57,380 [INFO] src.data.download_data (download_data.py:46): Saved EUR/USD data to /Users/rashidkarimov/Desktop/trading/quant/data/raw/EUR_USD.csv
+2025-04-24 01:19:57,380 [INFO] src.data.download_data (download_data.py:38): Downloading GBP/USD as GBPUSD=X [2020-01-01 → 2025-04-01 @ 1d]
+2025-04-24 01:19:57,664 [INFO] src.data.download_data (download_data.py:46): Saved GBP/USD data to /Users/rashidkarimov/Desktop/trading/quant/data/raw/GBP_USD.csv
+2025-04-24 01:19:57,688 [INFO] src.data.preprocess (preprocess.py:63): Saved processed prices and returns to /Users/rashidkarimov/Desktop/trading/quant/data/processed
+2025-04-24 01:19:57,688 [INFO] __main__ (main.py:32): === Computing Factor Series ===
+2025-04-24 01:19:57,725 [INFO] src.features.compute_factors (compute_factors.py:31): Saved factors to /Users/rashidkarimov/Desktop/trading/quant/data/processed/factors.csv
+2025-04-24 01:19:57,775 [INFO] src.features.factor_model (factor_model.py:38): Rolling OLS for EUR/USD (window=252)
+2025-04-24 01:19:57,844 [INFO] src.features.factor_model (factor_model.py:38): Rolling OLS for GBP/USD (window=252)
+2025-04-24 01:19:57,930 [INFO] src.features.factor_model (factor_model.py:63): Saved betas.csv and residuals.csv
+2025-04-24 01:19:57,931 [INFO] __main__ (main.py:39): === Training ML Models ===
+2025-04-24 01:19:57,931 [INFO] src.models.train_ml (train_ml.py:27): Training ML model for EUR/USD
+2025-04-24 01:19:58,004 [INFO] src.features.ml_features (ml_features.py:56): Built ML dataset for EUR/USD: 1238 rows × 5 features
+2025-04-24 01:19:58,537 [INFO] src.models.train_ml (train_ml.py:33): Saved EUR/USD model to /Users/rashidkarimov/Desktop/trading/quant/models/ml/rf_EUR_USD.joblib
+2025-04-24 01:19:58,537 [INFO] src.models.train_ml (train_ml.py:27): Training ML model for GBP/USD
+2025-04-24 01:19:58,583 [INFO] src.features.ml_features (ml_features.py:56): Built ML dataset for GBP/USD: 1238 rows × 5 features
+2025-04-24 01:19:59,080 [INFO] src.models.train_ml (train_ml.py:33): Saved GBP/USD model to /Users/rashidkarimov/Desktop/trading/quant/models/ml/rf_GBP_USD.joblib
+2025-04-24 01:19:59,080 [INFO] __main__ (main.py:43): === Generating ML Predictions ===
+2025-04-24 01:19:59,127 [INFO] src.features.ml_features (ml_features.py:56): Built ML dataset for EUR/USD: 1238 rows × 5 features
+2025-04-24 01:19:59,145 [INFO] src.models.ml_model (ml_model.py:27): Loaded ML model for EUR/USD
+2025-04-24 01:19:59,197 [INFO] src.features.ml_features (ml_features.py:56): Built ML dataset for GBP/USD: 1238 rows × 5 features
+2025-04-24 01:19:59,214 [INFO] src.models.ml_model (ml_model.py:27): Loaded ML model for GBP/USD
+2025-04-24 01:19:59,220 [INFO] __main__ (main.py:53): ML predicted next-day residuals: {'EUR/USD': -0.0004842421116021754, 'GBP/USD': 0.0009703639798635214}
+2025-04-24 01:19:59,243 [INFO] src.features.residuals (residuals.py:21): Loaded residuals: 1244 rows × 2 symbols
+2025-04-24 01:19:59,430 [INFO] src.models.autoencoder (autoencoder.py:76): Built autoencoder with input_dim=2, latent_dim=10
+2025-04-24 01:20:19,317 [INFO] src.models.train (train.py:66): Training complete. Weights saved to /Users/rashidkarimov/Desktop/trading/quant/models/autoencoder.weights.h5, full model to /Users/rashidkarimov/Desktop/trading/quant/models/autoencoder_final.h5
+2025-04-24 01:20:19,394 [INFO] src.features.residuals (residuals.py:21): Loaded residuals: 1244 rows × 2 symbols
+2025-04-24 01:20:19,440 [INFO] src.features.ml_features (ml_features.py:56): Built ML dataset for EUR/USD: 1238 rows × 5 features
+2025-04-24 01:20:19,459 [INFO] src.models.ml_model (ml_model.py:27): Loaded ML model for EUR/USD
+2025-04-24 01:20:19,519 [INFO] src.features.ml_features (ml_features.py:56): Built ML dataset for GBP/USD: 1238 rows × 5 features
+2025-04-24 01:20:19,536 [INFO] src.models.ml_model (ml_model.py:27): Loaded ML model for GBP/USD
+2025-04-24 01:20:19,548 [INFO] src.backtest.backtest_engine (backtest_engine.py:63): Computed anomaly z-score series
+2025-04-24 01:20:21,036 [INFO] src.backtest.backtest_engine (backtest_engine.py:88): Generated hybrid ML+anomaly trading signals
+2025-04-24 01:20:21,038 [INFO] src.backtest.backtest_engine (backtest_engine.py:99): Backtest complete
+2025-04-24 01:20:21,038 [DEBUG] src.backtest.performance (performance.py:35): CAGR: nan
+2025-04-24 01:20:21,038 [DEBUG] src.backtest.performance (performance.py:13): Sharpe: nan
+2025-04-24 01:20:21,038 [DEBUG] src.backtest.performance (performance.py:23): Max Drawdown: nan
+2025-04-24 01:20:21,038 [INFO] src.backtest.performance (performance.py:50): Performance summary: {'total_return': nan, 'cagr': nan, 'sharpe': nan, 'max_drawdown': nan}
+2025-04-24 01:20:21,038 [INFO] __main__ (main.py:67): === Pipeline Complete ===
+2025-04-24 01:20:21,038 [INFO] __main__ (main.py:68): {'total_return': nan, 'cagr': nan, 'sharpe': nan, 'max_drawdown': nan}
+2025-04-24 01:22:48,198 [INFO] __main__ (main.py:23): === Starting Quant FX Indicator Pipeline ===
+2025-04-24 01:22:48,199 [INFO] src.data.download_data (download_data.py:38): Downloading EUR/USD as EURUSD=X [2020-01-01 → 2025-04-01 @ 1d]
+2025-04-24 01:22:49,142 [INFO] src.data.download_data (download_data.py:46): Saved EUR/USD data to /Users/rashidkarimov/Desktop/trading/quant/data/raw/EUR_USD.csv
+2025-04-24 01:22:49,142 [INFO] src.data.download_data (download_data.py:38): Downloading GBP/USD as GBPUSD=X [2020-01-01 → 2025-04-01 @ 1d]
+2025-04-24 01:22:49,400 [INFO] src.data.download_data (download_data.py:46): Saved GBP/USD data to /Users/rashidkarimov/Desktop/trading/quant/data/raw/GBP_USD.csv
+2025-04-24 01:22:49,423 [INFO] src.data.preprocess (preprocess.py:63): Saved processed prices and returns to /Users/rashidkarimov/Desktop/trading/quant/data/processed
+2025-04-24 01:22:49,423 [INFO] __main__ (main.py:32): === Computing Factor Series ===
+2025-04-24 01:22:49,461 [INFO] src.features.compute_factors (compute_factors.py:31): Saved factors to /Users/rashidkarimov/Desktop/trading/quant/data/processed/factors.csv
+2025-04-24 01:22:49,510 [INFO] src.features.factor_model (factor_model.py:38): Rolling OLS for EUR/USD (window=252)
+2025-04-24 01:22:49,564 [INFO] src.features.factor_model (factor_model.py:38): Rolling OLS for GBP/USD (window=252)
+2025-04-24 01:22:49,651 [INFO] src.features.factor_model (factor_model.py:63): Saved betas.csv and residuals.csv
+2025-04-24 01:22:49,651 [INFO] __main__ (main.py:39): === Training ML Models ===
+2025-04-24 01:22:49,652 [INFO] src.models.train_ml (train_ml.py:27): Training ML model for EUR/USD
+2025-04-24 01:22:49,732 [INFO] src.features.ml_features (ml_features.py:56): Built ML dataset for EUR/USD: 1238 rows × 5 features
+2025-04-24 01:22:50,268 [INFO] src.models.train_ml (train_ml.py:33): Saved EUR/USD model to /Users/rashidkarimov/Desktop/trading/quant/models/ml/rf_EUR_USD.joblib
+2025-04-24 01:22:50,268 [INFO] src.models.train_ml (train_ml.py:27): Training ML model for GBP/USD
+2025-04-24 01:22:50,316 [INFO] src.features.ml_features (ml_features.py:56): Built ML dataset for GBP/USD: 1238 rows × 5 features
+2025-04-24 01:22:50,818 [INFO] src.models.train_ml (train_ml.py:33): Saved GBP/USD model to /Users/rashidkarimov/Desktop/trading/quant/models/ml/rf_GBP_USD.joblib
+2025-04-24 01:22:50,818 [INFO] __main__ (main.py:43): === Generating ML Predictions ===
+2025-04-24 01:22:50,865 [INFO] src.features.ml_features (ml_features.py:56): Built ML dataset for EUR/USD: 1238 rows × 5 features
+2025-04-24 01:22:50,882 [INFO] src.models.ml_model (ml_model.py:27): Loaded ML model for EUR/USD
+2025-04-24 01:22:50,935 [INFO] src.features.ml_features (ml_features.py:56): Built ML dataset for GBP/USD: 1238 rows × 5 features
+2025-04-24 01:22:50,951 [INFO] src.models.ml_model (ml_model.py:27): Loaded ML model for GBP/USD
+2025-04-24 01:22:50,957 [INFO] __main__ (main.py:53): ML predicted next-day residuals: {'EUR/USD': -0.0004842421116021754, 'GBP/USD': 0.0009703639798635214}
+2025-04-24 01:22:50,980 [INFO] src.features.residuals (residuals.py:21): Loaded residuals: 1244 rows × 2 symbols
+2025-04-24 01:22:51,157 [INFO] src.models.autoencoder (autoencoder.py:76): Built autoencoder with input_dim=2, latent_dim=10
+2025-04-24 01:23:06,646 [INFO] src.models.train (train.py:66): Training complete. Weights saved to /Users/rashidkarimov/Desktop/trading/quant/models/autoencoder.weights.h5, full model to /Users/rashidkarimov/Desktop/trading/quant/models/autoencoder_final.h5
+2025-04-24 01:23:06,725 [INFO] src.features.residuals (residuals.py:21): Loaded residuals: 1244 rows × 2 symbols
+2025-04-24 01:23:06,773 [INFO] src.features.ml_features (ml_features.py:56): Built ML dataset for EUR/USD: 1238 rows × 5 features
+2025-04-24 01:23:06,792 [INFO] src.models.ml_model (ml_model.py:27): Loaded ML model for EUR/USD
+2025-04-24 01:23:06,852 [INFO] src.features.ml_features (ml_features.py:56): Built ML dataset for GBP/USD: 1238 rows × 5 features
+2025-04-24 01:23:06,870 [INFO] src.models.ml_model (ml_model.py:27): Loaded ML model for GBP/USD
+2025-04-24 01:23:06,882 [INFO] src.backtest.backtest_engine (backtest_engine.py:62): Computed anomaly z-score series
+2025-04-24 01:23:06,883 [INFO] src.backtest.backtest_engine (backtest_engine.py:99): Generated blended ML+anomaly trading signals
+2025-04-24 01:23:06,885 [INFO] src.backtest.backtest_engine (backtest_engine.py:114): Backtest complete
+2025-04-24 01:23:06,885 [DEBUG] src.backtest.performance (performance.py:35): CAGR: 0.1054
+2025-04-24 01:23:06,885 [DEBUG] src.backtest.performance (performance.py:13): Sharpe: 0.5992
+2025-04-24 01:23:06,885 [DEBUG] src.backtest.performance (performance.py:23): Max Drawdown: -0.3736
+2025-04-24 01:23:06,885 [INFO] src.backtest.performance (performance.py:50): Performance summary: {'total_return': 0.6355663466390473, 'cagr': 0.10542223383853111, 'sharpe': 0.5991735385762103, 'max_drawdown': -0.37362674989247163}
+2025-04-24 01:23:06,885 [INFO] __main__ (main.py:67): === Pipeline Complete ===
+2025-04-24 01:23:06,885 [INFO] __main__ (main.py:68): {'total_return': 0.6355663466390473, 'cagr': 0.10542223383853111, 'sharpe': 0.5991735385762103, 'max_drawdown': -0.37362674989247163}
+2025-04-24 01:29:24,891 [INFO] __main__ (main.py:30): === Starting Quant FX Indicator Pipeline ===
+2025-04-24 01:29:24,893 [INFO] src.data.download_data (download_data.py:38): Downloading EUR/USD as EURUSD=X [2020-01-01 → 2025-04-01 @ 1d]
+2025-04-24 01:29:25,736 [INFO] src.data.download_data (download_data.py:46): Saved EUR/USD data to /Users/rashidkarimov/Desktop/trading/quant/data/raw/EUR_USD.csv
+2025-04-24 01:29:25,736 [INFO] src.data.download_data (download_data.py:38): Downloading GBP/USD as GBPUSD=X [2020-01-01 → 2025-04-01 @ 1d]
+2025-04-24 01:29:25,933 [INFO] src.data.download_data (download_data.py:46): Saved GBP/USD data to /Users/rashidkarimov/Desktop/trading/quant/data/raw/GBP_USD.csv
+2025-04-24 01:29:25,952 [INFO] src.data.preprocess (preprocess.py:63): Saved processed prices and returns to /Users/rashidkarimov/Desktop/trading/quant/data/processed
+2025-04-24 01:29:25,988 [INFO] src.features.compute_factors (compute_factors.py:31): Saved factors to /Users/rashidkarimov/Desktop/trading/quant/data/processed/factors.csv
+2025-04-24 01:29:26,039 [INFO] src.features.factor_model (factor_model.py:38): Rolling OLS for EUR/USD (window=252)
+2025-04-24 01:29:26,107 [INFO] src.features.factor_model (factor_model.py:38): Rolling OLS for GBP/USD (window=252)
+2025-04-24 01:29:26,219 [INFO] src.features.factor_model (factor_model.py:63): Saved betas.csv and residuals.csv
+2025-04-24 01:29:26,219 [INFO] __main__ (main.py:41): === Training ML Models ===
+2025-04-24 01:29:26,220 [INFO] src.models.train_ml (train_ml.py:27): Training ML model for EUR/USD
+2025-04-24 01:29:26,297 [INFO] src.features.ml_features (ml_features.py:56): Built ML dataset for EUR/USD: 1238 rows × 5 features
+2025-04-24 01:29:26,830 [INFO] src.models.train_ml (train_ml.py:33): Saved EUR/USD model to /Users/rashidkarimov/Desktop/trading/quant/models/ml/rf_EUR_USD.joblib
+2025-04-24 01:29:26,830 [INFO] src.models.train_ml (train_ml.py:27): Training ML model for GBP/USD
+2025-04-24 01:29:26,876 [INFO] src.features.ml_features (ml_features.py:56): Built ML dataset for GBP/USD: 1238 rows × 5 features
+2025-04-24 01:29:27,376 [INFO] src.models.train_ml (train_ml.py:33): Saved GBP/USD model to /Users/rashidkarimov/Desktop/trading/quant/models/ml/rf_GBP_USD.joblib
+2025-04-24 01:29:27,377 [INFO] __main__ (main.py:43): === Training NN Models ===
+2025-04-24 01:29:27,378 [INFO] src.models.train_nn (train_nn.py:30): Training NN model for EUR/USD
+2025-04-24 01:29:27,426 [INFO] src.features.ml_features (ml_features.py:56): Built ML dataset for EUR/USD: 1238 rows × 5 features
+2025-04-24 01:29:34,567 [INFO] src.models.train_nn (train_nn.py:50): Saved NN model for EUR/USD to /Users/rashidkarimov/Desktop/trading/quant/models/nn/nn_EUR_USD.keras
+2025-04-24 01:29:34,567 [INFO] src.models.train_nn (train_nn.py:30): Training NN model for GBP/USD
+2025-04-24 01:29:34,615 [INFO] src.features.ml_features (ml_features.py:56): Built ML dataset for GBP/USD: 1238 rows × 5 features
+2025-04-24 01:29:39,580 [INFO] src.models.train_nn (train_nn.py:50): Saved NN model for GBP/USD to /Users/rashidkarimov/Desktop/trading/quant/models/nn/nn_GBP_USD.keras
+2025-04-24 01:29:39,603 [INFO] src.features.residuals (residuals.py:21): Loaded residuals: 1244 rows × 2 symbols
+2025-04-24 01:29:39,679 [INFO] src.models.autoencoder (autoencoder.py:76): Built autoencoder with input_dim=2, latent_dim=10
+2025-04-24 01:29:57,751 [INFO] src.models.train (train.py:66): Training complete. Weights saved to /Users/rashidkarimov/Desktop/trading/quant/models/autoencoder.weights.h5, full model to /Users/rashidkarimov/Desktop/trading/quant/models/autoencoder_final.h5
+2025-04-24 01:29:57,777 [INFO] src.features.residuals (residuals.py:21): Loaded residuals: 1244 rows × 2 symbols
+2025-04-24 01:29:57,825 [INFO] src.features.ml_features (ml_features.py:56): Built ML dataset for EUR/USD: 1238 rows × 5 features
+2025-04-24 01:29:57,844 [INFO] src.models.ml_model (ml_model.py:27): Loaded ML model for EUR/USD
+2025-04-24 01:29:57,909 [INFO] src.features.ml_features (ml_features.py:56): Built ML dataset for GBP/USD: 1238 rows × 5 features
+2025-04-24 01:29:57,926 [INFO] src.models.ml_model (ml_model.py:27): Loaded ML model for GBP/USD
+2025-04-24 01:29:57,988 [INFO] src.features.ml_features (ml_features.py:56): Built ML dataset for EUR/USD: 1238 rows × 5 features
+2025-04-24 01:29:58,036 [INFO] src.models.predict_nn (predict_nn.py:28): Loaded NN model for EUR/USD
+2025-04-24 01:29:58,208 [INFO] src.features.ml_features (ml_features.py:56): Built ML dataset for GBP/USD: 1238 rows × 5 features
+2025-04-24 01:29:58,243 [INFO] src.models.predict_nn (predict_nn.py:28): Loaded NN model for GBP/USD
+2025-04-24 01:29:58,414 [INFO] src.features.residuals (residuals.py:21): Loaded residuals: 1244 rows × 2 symbols
+2025-04-24 01:29:58,460 [INFO] src.features.ml_features (ml_features.py:56): Built ML dataset for EUR/USD: 1238 rows × 5 features
+2025-04-24 01:29:58,476 [INFO] src.models.ml_model (ml_model.py:27): Loaded ML model for EUR/USD
+2025-04-24 01:29:58,534 [INFO] src.features.ml_features (ml_features.py:56): Built ML dataset for GBP/USD: 1238 rows × 5 features
+2025-04-24 01:29:58,550 [INFO] src.models.ml_model (ml_model.py:27): Loaded ML model for GBP/USD
+2025-04-24 01:29:58,563 [INFO] src.backtest.backtest_engine (backtest_engine.py:62): Computed anomaly z-score series
+2025-04-24 01:29:58,568 [INFO] src.backtest.backtest_engine (backtest_engine.py:114): Backtest complete
+2025-04-24 01:29:58,568 [DEBUG] src.backtest.performance (performance.py:35): CAGR: 0.0940
+2025-04-24 01:29:58,568 [DEBUG] src.backtest.performance (performance.py:13): Sharpe: 0.5482
+2025-04-24 01:29:58,569 [DEBUG] src.backtest.performance (performance.py:23): Max Drawdown: -0.3956
+2025-04-24 01:29:58,569 [INFO] src.backtest.performance (performance.py:50): Performance summary: {'total_return': 0.5542704224664214, 'cagr': 0.09400055285422226, 'sharpe': 0.548190504703959, 'max_drawdown': -0.39555676522345784}
+2025-04-24 01:29:58,569 [INFO] __main__ (main.py:112): Baseline summary: {'total_return': 0.5542704224664214, 'cagr': 0.09400055285422226, 'sharpe': 0.548190504703959, 'max_drawdown': -0.39555676522345784}
+2025-04-24 01:29:58,569 [INFO] src.backtest.backtest_engine (backtest_engine.py:114): Backtest complete
+2025-04-24 01:29:58,570 [DEBUG] src.backtest.performance (performance.py:35): CAGR: 0.1054
+2025-04-24 01:29:58,570 [DEBUG] src.backtest.performance (performance.py:13): Sharpe: 0.5992
+2025-04-24 01:29:58,570 [DEBUG] src.backtest.performance (performance.py:23): Max Drawdown: -0.3736
+2025-04-24 01:29:58,570 [INFO] src.backtest.performance (performance.py:50): Performance summary: {'total_return': 0.6355663466390473, 'cagr': 0.10542223383853111, 'sharpe': 0.5991735385762103, 'max_drawdown': -0.37362674989247163}
+2025-04-24 01:29:58,570 [INFO] __main__ (main.py:112): RF-blend summary: {'total_return': 0.6355663466390473, 'cagr': 0.10542223383853111, 'sharpe': 0.5991735385762103, 'max_drawdown': -0.37362674989247163}
+2025-04-24 01:29:58,571 [INFO] src.backtest.backtest_engine (backtest_engine.py:114): Backtest complete
+2025-04-24 01:29:58,571 [DEBUG] src.backtest.performance (performance.py:35): CAGR: 0.1004
+2025-04-24 01:29:58,571 [DEBUG] src.backtest.performance (performance.py:13): Sharpe: 0.5770
+2025-04-24 01:29:58,571 [DEBUG] src.backtest.performance (performance.py:23): Max Drawdown: -0.3863
+2025-04-24 01:29:58,571 [INFO] src.backtest.performance (performance.py:50): Performance summary: {'total_return': 0.5992367339265721, 'cagr': 0.10037530812491546, 'sharpe': 0.5769929436840161, 'max_drawdown': -0.38634221281704084}
+2025-04-24 01:29:58,571 [INFO] __main__ (main.py:112): NN-blend summary: {'total_return': 0.5992367339265721, 'cagr': 0.10037530812491546, 'sharpe': 0.5769929436840161, 'max_drawdown': -0.38634221281704084}
+2025-04-24 01:29:58,572 [INFO] src.backtest.backtest_engine (backtest_engine.py:114): Backtest complete
+2025-04-24 01:29:58,572 [DEBUG] src.backtest.performance (performance.py:35): CAGR: 0.1073
+2025-04-24 01:29:58,572 [DEBUG] src.backtest.performance (performance.py:13): Sharpe: 0.6085
+2025-04-24 01:29:58,572 [DEBUG] src.backtest.performance (performance.py:23): Max Drawdown: -0.3726
+2025-04-24 01:29:58,572 [INFO] src.backtest.performance (performance.py:50): Performance summary: {'total_return': 0.6488964927793139, 'cagr': 0.10725168618647984, 'sharpe': 0.6085121790552903, 'max_drawdown': -0.37257508651099414}
+2025-04-24 01:29:58,572 [INFO] __main__ (main.py:112): Hybrid summary: {'total_return': 0.6488964927793139, 'cagr': 0.10725168618647984, 'sharpe': 0.6085121790552903, 'max_drawdown': -0.37257508651099414}
+2025-04-24 01:29:58,572 [INFO] __main__ (main.py:114): === Pipeline Complete ===

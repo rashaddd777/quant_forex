@@ -1,0 +1,20 @@
+# configs/nn_config.yaml
+
+# Architecture: list of {units, activation, dropout}
+hidden_layers:
+  - units: 64
+    activation: relu
+    dropout: 0.2
+  - units: 32
+    activation: relu
+    dropout: 0.1
+
+# Training hyperparameters
+learning_rate: 0.001
+batch_size: 32
+epochs: 100
+
+# Early stopping
+early_stopping:
+  patience: 10
+  restore_best_weights: true
