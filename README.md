@@ -11,6 +11,11 @@ Quant FX Indicator Pipeline is an end-to-end Python framework for systematic FX 
 | NN-Blend    | 59.9%        | 10.0% | 0.58   | –38.6%       |
 | **Hybrid**  | **64.9%**    | **10.7%** | **0.61** | **–37.3%** |
 
+## Symbols & Data Period
+
+- **Pairs:** EUR/USD, GBP/USD  
+- **Data Range:** January 1, 2020 – April 1, 2025
+
 ## Insights
 
 - **Blending Models** raised returns by ~9 pp and improved Sharpe from 0.55 to 0.61.  
